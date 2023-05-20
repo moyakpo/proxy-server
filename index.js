@@ -1,5 +1,6 @@
 const http = require("http");
 const httpProxy = require("http-proxy");
+require("dotenv").config();
 
 const proxy = httpProxy.createProxyServer({});
 const destinationHost =
